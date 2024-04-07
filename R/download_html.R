@@ -2,6 +2,7 @@ download_html <- function(url, caminho_salvar) {
   url_get <-
     httr::GET(
       url,
+      httr::set_cookies(.cookies = c("language" = "pt_BR")),
       httr::write_disk(path = caminho_salvar, overwrite = TRUE),
       httr::config(ssl_verifypeer = FALSE)
     )

@@ -1,9 +1,11 @@
 Package: scieloPeriodicos
 Title: Funções para buscar informações sobre periódicos da Coleção Scielo Brasil
 Version: 0.1.0
-Authors@R: 
+Authors@R: c(
     person("Beatriz", "Milz", , "milz.bea@gmail.com", role = c("aut", "cre"),
-           comment = c(ORCID = "0000-0002-3064-4486"))
+           comment = c(ORCID = "0000-0002-3064-4486")),
+    person("Julio", "Trecenti", role = "ctb")
+  )
 Description: What the package does (one paragraph).
 License: CC BY 4.0
 Encoding: UTF-8

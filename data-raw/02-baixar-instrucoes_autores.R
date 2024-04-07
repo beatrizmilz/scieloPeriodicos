@@ -1,5 +1,7 @@
 # Carregar o pacote
 devtools::load_all()
+Sys.setenv(LANG = "pt_BR.UTF-8")
+
 
 periodicos_ativos <- readr::read_csv("inst/periodicos_ativos_SciELO.csv")
 
