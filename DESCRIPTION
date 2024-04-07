@@ -17,3 +17,5 @@ Imports:
     stringr,
     tibble,
     tidyr
+URL: https://github.com/beatrizmilz/scieloPeriodicos
+BugReports: https://github.com/beatrizmilz/scieloPeriodicos/issues
