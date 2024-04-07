@@ -67,17 +67,18 @@ Informações úteis:
 - [x] Estruturar a lógica para baixar as páginas de instruções dos
   periódicos.
 
-- [ ] Criar um fluxo de trabalho com GitHub Actions para salvar a página
+- [x] Criar um fluxo de trabalho com GitHub Actions para salvar a página
   de instruções aos autores de cada periódico.
+
+- [ ] Fazer o download da página de instruções em Português.
+
+- [ ] Extrair os textos da página `about` dos periódicos, estruturada
+  pelos tópicos (**iniciado**)
 
 - [ ] Adicionar na tabela
   [`periodicos_ativos_SciELO.csv`](https://github.com/beatrizmilz/scieloPeriodicos/blob/main/inst/periodicos_ativos_SciELO.csv)
   informações sobre as [áreas de
   conhecimento](https://www.scielo.br/journals/thematic?status=current&filter=areas).
-
-- [ ] Analisar: Quais são plataformas os periódicos utilizam para
-  submissão de manuscritos (além do ScholarOne)? Quantos periódicos
-  utilizam cada plataforma?
 
 ## Licença
 

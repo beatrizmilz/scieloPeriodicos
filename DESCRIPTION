@@ -12,6 +12,7 @@ RoxygenNote: 7.3.1
 Imports: 
     dplyr,
     fs,
+    glue,
     httr,
     purrr,
     readr,
@@ -23,3 +24,6 @@ Imports:
     usethis
 URL: https://github.com/beatrizmilz/scieloPeriodicos
 BugReports: https://github.com/beatrizmilz/scieloPeriodicos/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
