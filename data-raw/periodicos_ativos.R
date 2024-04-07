@@ -9,4 +9,5 @@ readr::write_csv(periodicos_ativos,
                  file = "inst/periodicos_ativos_SciELO.csv",
                  quote = "needed")
 
+usethis::ui_info("Dados CSV salvos!")
 
