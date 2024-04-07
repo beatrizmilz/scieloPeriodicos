@@ -14,7 +14,7 @@ listar_periodicos_ativos <- function() {
   # TD - texto ---------------------------------------------
   lista_td_texto <- tr_elements |>
     purrr::map(~ rvest::html_elements(.x, "td")) |>
-    purrr::map(~ rvest::html_elements(.x, "a ")) |>
+    purrr::map(~ rvest::html_elements(.x, "a")) |>
     purrr::compact()
 
   # título do periódico
@@ -74,7 +74,7 @@ listar_periodicos_ativos <- function() {
                                      values_from = "value")) |>
     purrr::list_rbind()
 
-  prefixo_scielo <- "https://www.scielo.br/"
+  prefixo_scielo <- "https://www.scielo.br"
 
   df_urls <- lista_tibble |>
     dplyr::transmute(
@@ -88,9 +88,7 @@ listar_periodicos_ativos <- function() {
   # Unir tabelas ----------------------------------
   tabela_completa <-
     dplyr::left_join(informacoes_periodico,  df_urls, by = "rowid") |>
-    dplyr::mutate(
-      data_obtencao_informacao = Sys.Date()
-    )
+    dplyr::mutate(data_obtencao_informacao = Sys.Date())
 
   tabela_completa
 }
