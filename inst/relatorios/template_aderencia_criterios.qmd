@@ -26,8 +26,6 @@ criterio_filtrado <- criterios_scielo |>
   dplyr::filter(criterio == params$criterio)
 ```
 
-
-
 ```{r leitura}
 instrucoes <-
   readr::read_rds(file = here::here("inst", "instrucoes-autores.rds"))
@@ -48,13 +46,9 @@ data_ref <- max(unique(dados$data_obtencao_informacao.y), na.rm = TRUE)
 
 Dados extraídos em: `r format(data_ref)`.
 
-
 ## `r criterio_filtrado$nome_criterio`
 
 ```{r}
-# O vetor abaixo foi criado manualmente, 
-# a partir da observação dos valores.
-# Isso deve ser incrementado com o tempo
 
 nome_secao <-  criterio_filtrado$palavras_chave |>
   purrr::pluck(1) |>
@@ -74,6 +68,8 @@ Quantidade de periódicos com uma seção dedicada ao sobre o tópico: **`r leng
 
 ```{r}
 dados_filtrados |> 
-  dplyr::select(Periodico, Texto = texto_secao) |> 
+  dplyr::select(Periodico, 
+                Secao = subtitulo_secao,
+                Texto = texto_secao) |> 
   knitr::kable()
 ```

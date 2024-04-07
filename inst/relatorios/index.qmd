@@ -1,0 +1,35 @@
+---
+title: "Explorando dados da Coleção SciELO: Aderência aos critérios de Ciência Aberta"
+author: "Beatriz Milz"
+format: html
+editor: visual
+language: 
+  title-block-author-single: "Autoria"  
+lang: pt
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  comment = "#>"
+)
+```
+
+```{r}
+devtools::load_all()
+```
+
+
+Saiba mais em: <https://github.com/beatrizmilz/scieloPeriodicos>
+
+```{r}
+#| results: asis
+criterios_scielo |> 
+  dplyr::mutate(texto = glue::glue(
+    "- [{nome_criterio}]({criterio}.html) \n"
+  )) |> 
+  dplyr::pull(texto)
+```
