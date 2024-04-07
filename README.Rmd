@@ -63,11 +63,19 @@ Informações úteis:
 - Existem 318 periódicos na [lista de periódicos ativos na página da SciELO](https://www.scielo.br/journals/alpha?status=current).
 
 
-## Ideias para o futuro
+## ROADMAP
 
-- Adicionar na tabela [`periodicos_ativos_SciELO.csv`](https://github.com/beatrizmilz/scieloPeriodicos/blob/main/inst/periodicos_ativos_SciELO.csv) informações sobre as [áreas de conhecimento](https://www.scielo.br/journals/thematic?status=current&filter=areas).
+- [x] Criar uma função para baixar a lista de periódicos ativos.
 
-- Analisar: Quais são plataformas os periódicos utilizam para submissão de manuscritos (além do ScholarOne)? Quantos periódicos utilizam cada plataforma?
+- [x] Criar um fluxo de trabalho com GitHub Actions para atualizar e salvar a lista de periódicos ativos com certa frequência.
+
+- [x] Estruturar a lógica para baixar as páginas de instruções dos periódicos.
+
+- [ ] Criar um fluxo de trabalho com GitHub Actions para salvar a página de instruções aos autores de cada periódico.
+
+- [ ] Adicionar na tabela [`periodicos_ativos_SciELO.csv`](https://github.com/beatrizmilz/scieloPeriodicos/blob/main/inst/periodicos_ativos_SciELO.csv) informações sobre as [áreas de conhecimento](https://www.scielo.br/journals/thematic?status=current&filter=areas).
+
+- [ ] Analisar: Quais são plataformas os periódicos utilizam para submissão de manuscritos (além do ScholarOne)? Quantos periódicos utilizam cada plataforma?
 
 ## Licença
 
