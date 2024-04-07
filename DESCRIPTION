@@ -11,11 +11,14 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
 Imports: 
     dplyr,
+    fs,
     httr,
     purrr,
     rvest,
     stringr,
     tibble,
-    tidyr
+    tidyr,
+    tidyselect,
+    usethis
 URL: https://github.com/beatrizmilz/scieloPeriodicos
 BugReports: https://github.com/beatrizmilz/scieloPeriodicos/issues
