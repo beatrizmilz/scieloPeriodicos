@@ -1,0 +1,19 @@
+Package: scieloPeriodicos
+Title: Funções para buscar informações sobre periódicos da Coleção Scielo Brasil
+Version: 0.0.0.9000
+Authors@R: 
+    person("Beatriz", "Milz", , "milz.bea@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-3064-4486"))
+Description: What the package does (one paragraph).
+License: CC BY 4.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: 
+    dplyr,
+    httr,
+    purrr,
+    rvest,
+    stringr,
+    tibble,
+    tidyr
