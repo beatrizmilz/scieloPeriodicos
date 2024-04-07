@@ -22,8 +22,13 @@ knitr::opts_chunk$set(
 devtools::load_all()
 ```
 
+Atenção: Essa página não é vinculada à SciELO.
+
+A página foi criada para fins exploratórios, para facilitar a leitura das políticas utilizadas por periódicos que fazem parte da Coleção SciELO.
 
 Saiba mais em: <https://github.com/beatrizmilz/scieloPeriodicos>
+
+## Critérios
 
 ```{r}
 #| results: asis
@@ -31,5 +36,6 @@ criterios_scielo |>
   dplyr::mutate(texto = glue::glue(
     "- [{nome_criterio}]({criterio}.html) \n"
   )) |> 
-  dplyr::pull(texto)
+  dplyr::pull(texto) |>
+  sort()
 ```
