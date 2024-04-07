@@ -14,6 +14,7 @@ Imports:
     fs,
     httr,
     purrr,
+    readr,
     rvest,
     stringr,
     tibble,
