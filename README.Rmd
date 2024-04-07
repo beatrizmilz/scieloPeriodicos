@@ -46,8 +46,15 @@ knitr::opts_chunk$set(
   - `url_instrucoes`
   - `data_obtencao_informacao`
 
+Exemplo dos dados disponíveis:
+
 ```{r}
+#| echo: false
 periodicos <- readr::read_csv("inst/periodicos_ativos_SciELO.csv", show_col_types = FALSE)
+
+periodicos |>
+  dplyr::filter(id_periodico == "asoc") |> 
+  knitr::kable()
 ```
 
 
@@ -64,6 +71,6 @@ Informações úteis:
 
 ## Licença
 
-- [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. 
+- [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): *Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made*. 
 
 

@@ -46,9 +46,11 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
   - `url_instrucoes`
   - `data_obtencao_informacao`
 
-``` r
-periodicos <- readr::read_csv("inst/periodicos_ativos_SciELO.csv", show_col_types = FALSE)
-```
+Exemplo dos dados disponíveis:
+
+| id_periodico | titulo_periodico     | quantidade_volumes | edicao_mais_recente | url_submissao                                   | url_instrucoes                              | data_obtencao_informacao |
+|:-------------|:---------------------|:-------------------|:--------------------|:------------------------------------------------|:--------------------------------------------|:-------------------------|
+| asoc         | Ambiente & Sociedade | 53 números         | 2023, Volume: 26    | <http://mc04.manuscriptcentral.com/asoc-scielo> | <https://www.scielo.br/journal/asoc/about/> | 2024-04-07               |
 
 Informações úteis:
 
@@ -68,6 +70,6 @@ Informações úteis:
 
 ## Licença
 
-- [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): Attribution
-  — You must give appropriate credit, provide a link to the license, and
-  indicate if changes were made.
+- [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/):
+  *Attribution — You must give appropriate credit, provide a link to the
+  license, and indicate if changes were made*.
