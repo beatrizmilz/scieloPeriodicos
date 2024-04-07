@@ -88,7 +88,10 @@ listar_periodicos_ativos <- function() {
   # Unir tabelas ----------------------------------
   tabela_completa <-
     dplyr::left_join(informacoes_periodico,  df_urls, by = "rowid") |>
-    dplyr::mutate(data_obtencao_informacao = Sys.Date())
+    dplyr::mutate(data_obtencao_informacao = Sys.Date()) |>
+    dplyr::relocate(id_periodico, .before = tidyselect::everything()) |>
+    dplyr::arrange(id_periodico) |>
+    dplyr::select(-rowid)
 
   tabela_completa
 }
