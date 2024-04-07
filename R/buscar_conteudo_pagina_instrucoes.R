@@ -6,17 +6,28 @@ buscar_conteudo_pagina_instrucoes <- function(caminho_arquivo,
 
   data_obtencao_informacao <- stringr::str_extract(caminho_arquivo, "[0-9]{4}-[0-9]{2}-[0-9]{2}")
 
+  # Adicionar: data de atualização do site!
   html_lista <- rvest::read_html(caminho_arquivo) |>
     rvest::html_element("body")  |>
     rvest::html_elements(".col-sm-12")
 
   tabelas_com_texto <- html_lista |>
-    rvest::html_elements("table")
+    rvest::html_elements(xpath = "./table")
 
-  # Nem sempre funciona, em alguns casos ele
-  subtitulo_secao <- tabelas_com_texto |>
-    rvest::html_elements(xpath = "./preceding-sibling::p[1]/*") |>
-    rvest::html_text()
+   titulo_secao <- tabelas_com_texto |>
+     purrr::map(~rvest::html_elements(.x, xpath = "./preceding-sibling::*[local-name() = 'h1' or local-name() = 'h2'][1]")) |>
+     purrr::map(rvest::html_text) |>
+     purrr::map(~ifelse(length(.x) == 0, "", .x)) |>
+     purrr::list_c() |>
+     stringr::str_squish()
+
+
+   subtitulo_secao <- tabelas_com_texto |>
+     purrr::map( ~ rvest::html_elements(.x, xpath = "./preceding-sibling::p[1]")) |>
+     purrr::map(rvest::html_text) |>
+     purrr::map(~ifelse(length(.x) == 0, "", .x)) |>
+     purrr::list_c() |>
+     stringr::str_squish()
 
   texto_secao <- tabelas_com_texto |>
     rvest::html_element("tbody") |>
@@ -25,19 +36,13 @@ buscar_conteudo_pagina_instrucoes <- function(caminho_arquivo,
     stringr::str_trim()
 
 
-  # Verificar se os tamanhos são iguais:
-  if(length(subtitulo_secao) != length(texto_secao)){
-    # browser()
-    usethis::ui_oops("Listas com tamanhos diferentes, averiguar.")
-  }
-
   tabela_conteudo <- tibble::tibble(
+    titulo_secao,
     subtitulo_secao,
     texto_secao
   ) |>
     dplyr::mutate(
       id_periodico = id_periodico,
-      titulo_secao_gerado = categorizar_titulo(subtitulo_secao),
       .before = tidyselect::everything(),
     ) |>
     dplyr::mutate(data_obtencao_informacao = data_obtencao_informacao)

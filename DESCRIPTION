@@ -25,5 +25,11 @@ Imports:
 URL: https://github.com/beatrizmilz/scieloPeriodicos
 BugReports: https://github.com/beatrizmilz/scieloPeriodicos/issues
 Suggests: 
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+VignetteBuilder: knitr
+Depends: 
+    R (>= 2.10)
+LazyData: true

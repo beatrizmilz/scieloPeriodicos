@@ -1,0 +1,79 @@
+---
+title: "Coleção SciELO: Aderência aos critérios de Ciência Aberta"
+author: "Beatriz Milz"
+format: html
+editor: visual
+params:
+  criterio: "sex_gender_issues"
+language: 
+  title-block-author-single: "Autoria"  
+lang: pt
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  comment = "#>"
+)
+```
+
+```{r}
+devtools::load_all()
+criterio_filtrado <- criterios_scielo |> 
+  dplyr::filter(criterio == params$criterio)
+```
+
+
+
+```{r leitura}
+instrucoes <-
+  readr::read_rds(file = here::here("inst", "instrucoes-autores.rds"))
+
+periodicos_ativos <-
+  readr::read_csv(file = here::here("inst", "periodicos_ativos_SciELO.csv"))
+
+numero_periodicos_ativos <- nrow(periodicos_ativos)
+
+dados <-
+  dplyr::left_join(periodicos_ativos, instrucoes, by = "id_periodico") |>  dplyr::mutate(
+    Periodico = glue::glue("[{titulo_periodico}]({url_instrucoes})"),
+    texto_secao = stringr::str_replace_all(texto_secao, "\n", " ")
+  ) 
+
+data_ref <- max(unique(dados$data_obtencao_informacao.y), na.rm = TRUE)
+```
+
+Dados extraídos em: `r format(data_ref)`.
+
+
+## `r criterio_filtrado$nome_criterio`
+
+```{r}
+# O vetor abaixo foi criado manualmente, 
+# a partir da observação dos valores.
+# Isso deve ser incrementado com o tempo
+
+nome_secao <-  criterio_filtrado$palavras_chave |>
+  purrr::pluck(1) |>
+  stringr::str_to_lower() |>
+  paste0(collapse = "|")
+
+dados_filtrados<- dados |>
+  dplyr::filter(stringr::str_detect(stringr::str_to_lower(subtitulo_secao), nome_secao))
+
+
+quantidade_periodicos_com_diretriz <- length(unique(dados_filtrados$id_periodico))
+
+porc <- round((quantidade_periodicos_com_diretriz/nrow(dados))*100,1 )
+```
+
+Quantidade de periódicos com uma seção dedicada ao sobre o tópico: **`r length(unique(dados_filtrados$id_periodico))`** (de um total de `r numero_periodicos_ativos` periódicos - cerca de **`r porc`%**).
+
+```{r}
+dados_filtrados |> 
+  dplyr::select(Periodico, Texto = texto_secao) |> 
+  knitr::kable()
+```

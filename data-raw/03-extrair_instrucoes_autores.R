@@ -20,13 +20,9 @@ arquivos <- fs::dir_ls(path = "data-raw/dados_html/",
   dplyr::filter(data == max(data)) |>
   dplyr::ungroup()
 
-# set.seed(1)
 
-possibly_buscar_conteudo_pagina_instrucoes <- purrr::possibly(buscar_conteudo_pagina_instrucoes)
-
-
-dados_lista <- arquivos$value |>
-  purrr::map(possibly_buscar_conteudo_pagina_instrucoes)
+dados_lista <- arquivos$value|>
+  purrr::map(buscar_conteudo_pagina_instrucoes)
 
 
 
@@ -41,5 +37,16 @@ arquivos_lidos <- purrr::map(arquivos_rds, readr::read_rds)
 
 tabela <- purrr::list_rbind(arquivos_lidos)
 
+tabela_arrumada <- tabela |>
+  dplyr::mutate(
+    titulo_secao_padronizado = categorizar_titulo_secao(titulo_secao),
+    .after = titulo_secao
+  )
 
-readr::write_rds(tabela, "data-raw/instrucoes-autores-incompleto.rds")
+
+
+readr::write_rds(tabela_arrumada, "inst/instrucoes-autores.rds")
+
+
+
+# writexl::write_xlsx(tabela_arrumada, "data-raw/instrucoes-autores-incompleto.xlsx")
