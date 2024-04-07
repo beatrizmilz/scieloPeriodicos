@@ -2,7 +2,7 @@ devtools::load_all()
 
 criterios <- criterios_scielo$criterio
 
-arquivos <- criterios[2] |>
+arquivos <- criterios |>
   purrr::walk(
     ~ quarto::quarto_render(
     input = here::here("inst", "relatorios", "template_aderencia_criterios.qmd"),

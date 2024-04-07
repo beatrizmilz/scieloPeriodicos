@@ -37,7 +37,7 @@ numero_periodicos_ativos <- nrow(periodicos_ativos)
 
 dados <-
   dplyr::left_join(periodicos_ativos, instrucoes, by = "id_periodico") |>  dplyr::mutate(
-    Periodico = glue::glue("[{titulo_periodico}]({url_instrucoes})"),
+    Periodico = glue::glue("<a href='{url_instrucoes}' target='_blank'>{titulo_periodico}</a>"),
     texto_secao = stringr::str_replace_all(texto_secao, "\n", " ")
   ) 
 
@@ -45,6 +45,8 @@ data_ref <- max(unique(dados$data_obtencao_informacao.y), na.rm = TRUE)
 ```
 
 Dados extraídos em: `r format(data_ref)`.
+
+[Voltar para a lista de critérios](https://beatrizmilz.github.io/scieloPeriodicos/).
 
 ## `r criterio_filtrado$nome_criterio`
 
@@ -61,7 +63,7 @@ dados_filtrados<- dados |>
 
 quantidade_periodicos_com_diretriz <- length(unique(dados_filtrados$id_periodico))
 
-porc <- round((quantidade_periodicos_com_diretriz/nrow(dados))*100,1 )
+porc <- round((quantidade_periodicos_com_diretriz/nrow(periodicos_ativos))*100,1 )
 ```
 
 Quantidade de periódicos com uma seção dedicada ao sobre o tópico: **`r length(unique(dados_filtrados$id_periodico))`** (de um total de `r numero_periodicos_ativos` periódicos - cerca de **`r porc`%**).
@@ -83,5 +85,5 @@ dados_filtrados |>
   dplyr::select(Periodico, 
                 Secao = subtitulo_secao,
                 Texto = texto_secao) |> 
-  knitr::kable()
+  reactable::reactable(sortable = TRUE, searchable = TRUE, defaultColDef = reactable::colDef(html = TRUE))
 ```
