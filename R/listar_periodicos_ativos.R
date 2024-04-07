@@ -81,7 +81,7 @@ listar_periodicos_ativos <- function() {
       id_periodico  = stringr::str_remove(homepage, "/j/") |>
         stringr::str_remove("/$"),
       url_submissao = submission,
-      url_about = paste0(prefixo_scielo, about)
+      url_instrucoes = paste0(prefixo_scielo, about)
     ) |>
     tibble::rowid_to_column()
 

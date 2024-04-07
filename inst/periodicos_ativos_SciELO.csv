@@ -1,9 +1,9 @@
-id_periodico,titulo_periodico,quantidade_volumes,edicao_mais_recente,url_submissao,url_about,data_obtencao_informacao
+id_periodico,titulo_periodico,quantidade_volumes,edicao_mais_recente,url_submissao,url_instrucoes,data_obtencao_informacao
 aa,Acta Amazonica,182 números,"2024, Volume: 54, Número: 2",http://mc04.manuscriptcentral.com/aa-scielo,https://www.scielo.br/journal/aa/about/,2024-04-07
 aabc,Anais da Academia Brasileira de Ciências,98 números,"2024, Volume: 96, Número: 2",http://mc04.manuscriptcentral.com/aabc-scielo,https://www.scielo.br/journal/aabc/about/,2024-04-07
 abb,Acta Botanica Brasilica,116 números,"2024, Volume: 38",http://mc04.manuscriptcentral.com/abb-scielo,https://www.scielo.br/journal/abb/about/,2024-04-07
-abc,Arquivos Brasileiros de Cardiologia,320 números,"2024, Volume: 121, Número: 3",https://mc04.manuscriptcentral.com/abc-scielo,https://www.scielo.br/journal/abc/about/,2024-04-07
-abcd,ABCD. Arquivos Brasileiros de Cirurgia Digestiva (São Paulo),63 números,"2024, Volume: 37",https://www.gnpapers.com.br/abcd/,https://www.scielo.br/journal/abcd/about/,2024-04-07
+abc,Arquivos Brasileiros de Cardiologia,319 números,"2024, Volume: 121, Número: 2",https://mc04.manuscriptcentral.com/abc-scielo,https://www.scielo.br/journal/abc/about/,2024-04-07
+abcd,ABCD. Arquivos Brasileiros de Cirurgia Digestiva (São Paulo),62 números,"2024, Volume: 37",https://www.gnpapers.com.br/abcd/,https://www.scielo.br/journal/abcd/about/,2024-04-07
 abd,Anais Brasileiros de Dermatologia,130 números,"2024, Volume: 99, Número: 1",http://www.sgponline.com.br/abd/sgp/,https://www.scielo.br/journal/abd/about/,2024-04-07
 abmvz,Arquivo Brasileiro de Medicina Veterinária e Zootecnia,151 números,"2024, Volume: 76, Número: 2",http://mc04.manuscriptcentral.com/abmvz-scielo,https://www.scielo.br/journal/abmvz/about/,2024-04-07
 abo,Arquivos Brasileiros de Oftalmologia,210 números,"2024, Volume: 87, Número: 6",http://mc04.manuscriptcentral.com/abo-scielo,https://www.scielo.br/journal/abo/about/,2024-04-07
@@ -22,7 +22,7 @@ alfa,Alfa: Revista de Linguística (São José do Rio Preto),29 números,"2024, 
 alm,Almanack,35 números,"2023, Número: 35",https://periodicos.unifesp.br/index.php/alm,https://www.scielo.br/journal/alm/about/,2024-04-07
 ambiagua,Revista Ambiente & Água,56 números,"2024, Volume: 19",http://mc04.manuscriptcentral.com/ambiagua-scielo,https://www.scielo.br/journal/ambiagua/about/,2024-04-07
 anaismp,Anais do Museu Paulista: História e Cultura Material,43 números,"2023, Volume: 31",http://www.revistas.usp.br/anaismp,https://www.scielo.br/journal/anaismp/about/,2024-04-07
-anp,Arquivos de Neuro-Psiquiatria,454 números,"2024, Volume: 82, Número: 3",http://mc04.manuscriptcentral.com/anp-scielo,https://www.scielo.br/journal/anp/about/,2024-04-07
+anp,Arquivos de Neuro-Psiquiatria,453 números,"2024, Volume: 82, Número: 2",http://mc04.manuscriptcentral.com/anp-scielo,https://www.scielo.br/journal/anp/about/,2024-04-07
 aob,Acta Ortopédica Brasileira,130 números,"2024, Volume: 32, Número: 1",http://submission.scielo.br/index.php/aob/login,https://www.scielo.br/journal/aob/about/,2024-04-07
 ape,Acta Paulista de Enfermagem,87 números,"2024, Volume: 37",http://mc04.manuscriptcentral.com/ape-scielo,https://www.scielo.br/journal/ape/about/,2024-04-07
 ar,Animal Reproduction,20 números,"2024, Volume: 21, Número: 1",https://mc04.manuscriptcentral.com/ar-scielo,https://www.scielo.br/journal/ar/about/,2024-04-07
@@ -32,7 +32,7 @@ asagr,Acta Scientiarum. Agronomy,47 números,"2024, Volume: 46",http://periodico
 asas,Acta Scientiarum. Animal Sciences,34 números,"2024, Volume: 46",http://periodicos.uem.br/ojs/index.php/ActaSciAnimSci,https://www.scielo.br/journal/asas/about/,2024-04-07
 asoc,Ambiente & Sociedade,53 números,"2023, Volume: 26",http://mc04.manuscriptcentral.com/asoc-scielo,https://www.scielo.br/journal/asoc/about/,2024-04-07
 aval,Avaliação: Revista da Avaliação da Educação Superior (Campinas),49 números,"2023, Volume: 28",http://submission.scielo.br/index.php/aval/login,https://www.scielo.br/journal/aval/about/,2024-04-07
-aws,Advances in Weed Science,4 números,"2024, Volume: 42",https://mc04.manuscriptcentral.com/aws-scielo,https://www.scielo.br/journal/aws/about/,2024-04-07
+aws,Advances in Weed Science,3 números,"2023, Volume: 41",https://mc04.manuscriptcentral.com/aws-scielo,https://www.scielo.br/journal/aws/about/,2024-04-07
 babt,Brazilian Archives of Biology and Technology,107 números,"2024, Volume: 67",http://mc04.manuscriptcentral.com/babt-scielo,https://www.scielo.br/journal/babt/about/,2024-04-07
 bak,Bakhtiniana: Revista de Estudos do Discurso,42 números,"2024, Volume: 19, Número: 3",http://revistas.pucsp.br/index.php/bakhtiniana/index,https://www.scielo.br/journal/bak/about/,2024-04-07
 bar,BAR - Brazilian Administration Review,73 números,"2024, Volume: 21, Número: 1",http://mc04.manuscriptcentral.com/bar-scielo,https://www.scielo.br/journal/bar/about/,2024-04-07
@@ -41,7 +41,7 @@ bcg,Boletim de Ciências Geodésicas,55 números,"2024, Volume: 30",http://mc04.
 bdj,Brazilian Dental Journal,113 números,"2024, Volume: 35",http://mc04.manuscriptcentral.com/bdj-scielo,https://www.scielo.br/journal/bdj/about/,2024-04-07
 bgoeldi,Boletim do Museu Paraense Emílio Goeldi. Ciências Humanas,55 números,"2024, Volume: 19, Número: 1",http://mc04.manuscriptcentral.com/bgoeldi-scielo,https://www.scielo.br/journal/bgoeldi/about/,2024-04-07
 bioet,Revista Bioética,36 números,"2023, Volume: 31",http://revistabioetica.cfm.org.br/index.php/revista_bioetica/index,https://www.scielo.br/journal/bioet/about/,2024-04-07
-bja,Brazilian Journal of Anesthesiology,19 números,"2024, Volume: 74, Número: 1",https://www.editorialmanager.com/bjan/,https://www.scielo.br/journal/bja/about/,2024-04-07
+bja,Brazilian Journal of Anesthesiology,19 números,"2023, Volume: 73, Número: 6",https://www.editorialmanager.com/bjan/,https://www.scielo.br/journal/bja/about/,2024-04-07
 bjb,Brazilian Journal of Biology,89 números,"2024, Volume: 84",http://submission.scielo.br/index.php/bjb/index,https://www.scielo.br/journal/bjb/about/,2024-04-07
 bjft,Brazilian Journal of Food Technology,27 números,"2024, Volume: 27",http://mc04.manuscriptcentral.com/bjft-scielo,https://www.scielo.br/journal/bjft/about/,2024-04-07
 bjgeo,Brazilian Journal of Geology,43 números,"2024, Volume: 54, Número: 1",http://mc04.manuscriptcentral.com/bjgeo-scielo,https://www.scielo.br/journal/bjgeo/about/,2024-04-07
@@ -64,7 +64,7 @@ cagro,Ciência e Agrotecnologia,102 números,"2024, Volume: 48",http://mc04.manu
 cbab,Crop Breeding and Applied Biotechnology,55 números,"2024, Volume: 24, Número: 1",http://mc04.manuscriptcentral.com/cbab-scielo,https://www.scielo.br/journal/cbab/about/,2024-04-07
 ccedes,Cadernos CEDES,81 números,"2024, Volume: 44, Número: 122",http://submission.scielo.br/index.php/ccedes/login,https://www.scielo.br/journal/ccedes/about/,2024-04-07
 ccrh,Caderno CRH,43 números,"2023, Volume: 36",http://portalseer.ufba.br/index.php/crh,https://www.scielo.br/journal/ccrh/about/,2024-04-07
-ccsci,Critical Care Science,5 números,"2024, Volume: 36",https://mc04.manuscriptcentral.com/ccsci-scielo,https://www.scielo.br/journal/ccsci/about/,2024-04-07
+ccsci,Critical Care Science,4 números,"2023, Volume: 35, Número: 4",https://mc04.manuscriptcentral.com/ccsci-scielo,https://www.scielo.br/journal/ccsci/about/,2024-04-07
 ce,Cerâmica,105 números,"2023, Volume: 69, Número: 391",https://mc04.manuscriptcentral.com/ce-scielo,https://www.scielo.br/journal/ce/about/,2024-04-07
 cebape,Cadernos EBAPE.BR,86 números,"2024, Volume: 22, Número: 1",http://mc04.manuscriptcentral.com/cebape-scielo,https://www.scielo.br/journal/cebape/about/,2024-04-07
 cenf,Cogitare Enfermagem,4 números,"2024, Volume: 29",https://revistas.ufpr.br/cogitare/login/,https://www.scielo.br/journal/cenf/about/,2024-04-07
@@ -72,11 +72,11 @@ cerne,CERNE,47 números,"2023, Volume: 29",http://cerne.ufla.br/ojs/index.php/CE
 cflo,Ciência Florestal,96 números,"2024, Volume: 34, Número: 1",http://periodicos.ufsm.br/index.php/cienciaflorestal/index,https://www.scielo.br/journal/cflo/about/,2024-04-07
 cgpc,Cadernos Gestão Pública e Cidadania,2 números,"2024, Volume: 29",https://periodicos.fgv.br/cgpc/about/submissions,https://www.scielo.br/journal/cgpc/about/,2024-04-07
 ciedu,Ciência & Educação (Bauru),72 números,"2024, Volume: 30",http://mc04.manuscriptcentral.com/ciedu-scielo,https://www.scielo.br/journal/ciedu/about/,2024-04-07
-cint,Contexto Internacional,57 números,"2024, Volume: 46, Número: 1",http://mc04.manuscriptcentral.com/cint-scielo,https://www.scielo.br/journal/cint/about/,2024-04-07
+cint,Contexto Internacional,56 números,"2023, Volume: 45, Número: 3",http://mc04.manuscriptcentral.com/cint-scielo,https://www.scielo.br/journal/cint/about/,2024-04-07
 civitas,Civitas - Revista de Ciências Sociais,37 números,"2023, Volume: 23",http://revistaseletronicas.pucrs.br/ojs/index.php/civitas/index,https://www.scielo.br/journal/civitas/about/,2024-04-07
 clin,Clinics,139 números,"2024, Volume: 79",https://www.editorialmanager.com/clinics,https://www.scielo.br/journal/clin/about/,2024-04-07
 cm,Cadernos Metrópole,30 números,"2024, Volume: 26, Número: 59",http://revistas.pucsp.br/index.php/metropole/index,https://www.scielo.br/journal/cm/about/,2024-04-07
-cniet,Cadernos Nietzsche,32 números,"2024, Volume: 45, Número: 1",https://periodicos.unifesp.br/index.php/cniet,https://www.scielo.br/journal/cniet/about/,2024-04-07
+cniet,Cadernos Nietzsche,31 números,"2023, Volume: 44, Número: 3",https://periodicos.unifesp.br/index.php/cniet,https://www.scielo.br/journal/cniet/about/,2024-04-07
 codas,CoDAS,69 números,"2024, Volume: 36, Número: 3",http://mc04.manuscriptcentral.com/codas-scielo,https://www.scielo.br/journal/codas/about/,2024-04-07
 coluna,Coluna/Columna,61 números,"2024, Volume: 23, Número: 1",http://submission.scielo.br/index.php/coluna/login,https://www.scielo.br/journal/coluna/about/,2024-04-07
 cp,Cadernos de Pesquisa,77 números,"2024, Volume: 54",http://publicacoes.fcc.org.br/ojs/index.php/cp,https://www.scielo.br/journal/cp/about/,2024-04-07
@@ -88,14 +88,14 @@ ct,Cadernos de Tradução,20 números,"2023, Volume: 43",http://periodicos.ufsc.
 dados,Dados,112 números,"2024, Volume: 67, Número: 4",http://mc04.manuscriptcentral.com/dados-scielo,https://www.scielo.br/journal/dados/about/,2024-04-07
 delta,DELTA: Documentação de Estudos em Lingüística Teórica e Aplicada,71 números,"2023, Volume: 39, Número: 4",http://revistas.pucsp.br/index.php/delta/index,https://www.scielo.br/journal/delta/about/,2024-04-07
 dilemas,Dilemas: Revista de Estudos de Conflito e Controle Social,12 números,"2024, Volume: 17, Número: 1",https://revistas.ufrj.br/index.php/dilemas/about/submissions#onlineSubmissions,https://www.scielo.br/journal/dilemas/about/,2024-04-07
-dn,Dementia & Neuropsychologia,66 números,"2024, Volume: 18",http://mc04.manuscriptcentral.com/dn-scielo,https://www.scielo.br/journal/dn/about/,2024-04-07
+dn,Dementia & Neuropsychologia,65 números,"2023, Volume: 17",http://mc04.manuscriptcentral.com/dn-scielo,https://www.scielo.br/journal/dn/about/,2024-04-07
 dpjo,Dental Press Journal of Orthodontics,85 números,"2024, Volume: 29, Número: 1",http://mc04.manuscriptcentral.com/dpjo-scielo,https://www.scielo.br/journal/dpjo/about/,2024-04-07
 ea,Estudos Avançados,109 números,"2023, Volume: 37, Número: 109",http://submission.scielo.br/index.php/ea/login,https://www.scielo.br/journal/ea/about/,2024-04-07
 eagri,Engenharia Agrícola,105 números,"2024, Volume: 44",http://mc04.manuscriptcentral.com/eagri-scielo,https://www.scielo.br/journal/eagri/about/,2024-04-07
 ean,Escola Anna Nery,71 números,"2024, Volume: 28",http://mc04.manuscriptcentral.com/ean-scielo,https://www.scielo.br/journal/ean/about/,2024-04-07
-eb,Encontros Bibli,2 números,"2024, Volume: 29",https://periodicos.ufsc.br/index.php/eb/submissao,https://www.scielo.br/journal/eb/about/,2024-04-07
+eb,Encontros Bibli,1 números,"2023, Volume: 28",https://periodicos.ufsc.br/index.php/eb/submissao,https://www.scielo.br/journal/eb/about/,2024-04-07
 ecos,Economia e Sociedade,52 números,"2024, Volume: 33, Número: 1",http://submission.scielo.br/index.php/ecos/login,https://www.scielo.br/journal/ecos/about/,2024-04-07
-edreal,Educação & Realidade,42 números,"2024, Volume: 49",http://seer.ufrgs.br/educacaoerealidade,https://www.scielo.br/journal/edreal/about/,2024-04-07
+edreal,Educação & Realidade,41 números,"2023, Volume: 48",http://seer.ufrgs.br/educacaoerealidade,https://www.scielo.br/journal/edreal/about/,2024-04-07
 edur,Educação em Revista,42 números,"2024, Volume: 40",http://periodicos.ufmg.br/index.php/edrevista,https://www.scielo.br/journal/edur/about/,2024-04-07
 ee,Estudos Econômicos (São Paulo),83 números,"2023, Volume: 53, Número: 4",http://www.revistas.usp.br/ee,https://www.scielo.br/journal/ee/about/,2024-04-07
 eh,Estudos Históricos (Rio de Janeiro),41 números,"2024, Volume: 37, Número: 81",http://bibliotecadigital.fgv.br/ojs/index.php/reh,https://www.scielo.br/journal/eh/about/,2024-04-07
@@ -109,7 +109,7 @@ er,Educar em Revista,83 números,"2023, Volume: 39",http://revistas.ufpr.br/educ
 es,Educação & Sociedade,94 números,"2024, Volume: 45",http://submission.scielo.br/index.php/es/login,https://www.scielo.br/journal/es/about/,2024-04-07
 esa,Engenharia Sanitaria e Ambiental,88 números,"2024, Volume: 29",https://mc04.manuscriptcentral.com/esa-scielo,https://www.scielo.br/journal/esa/about/,2024-04-07
 estpsi,Estudos de Psicologia (Campinas),86 números,"2024, Volume: 41",https://periodicos.puc-campinas.edu.br/estpsi,https://www.scielo.br/journal/estpsi/about/,2024-04-07
-floram,Floresta e Ambiente,75 números,"2024, Volume: 31, Número: 1",http://mc04.manuscriptcentral.com/floram-scielo,https://www.scielo.br/journal/floram/about/,2024-04-07
+floram,Floresta e Ambiente,74 números,"2024, Volume: 31, Número: 1",http://mc04.manuscriptcentral.com/floram-scielo,https://www.scielo.br/journal/floram/about/,2024-04-07
 fm,Fisioterapia em Movimento,39 números,"2024, Volume: 37",http://mc04.manuscriptcentral.com/fm-scielo,https://www.scielo.br/journal/fm/about/,2024-04-07
 fp,Fisioterapia e Pesquisa,61 números,"2023, Volume: 30",http://mc04.manuscriptcentral.com/fp-scielo,https://www.scielo.br/journal/fp/about/,2024-04-07
 fractal,Fractal: Revista de Psicologia,43 números,"2023, Volume: 35",http://periodicos.uff.br/fractal/index,https://www.scielo.br/journal/fractal/about/,2024-04-07
@@ -117,25 +117,25 @@ fun,Filosofia Unisinos,8 números,"2023, Volume: 24, Número: 3",http://revistas
 gal,Galáxia (São Paulo),24 números,"2023, Volume: 48",http://revistas.pucsp.br/index.php/galaxia/index,https://www.scielo.br/journal/gal/about/,2024-04-07
 geo,GEOUSP,10 números,"2024, Volume: 28, Número: 1",https://www.revistas.usp.br/geousp/about/submissions,https://www.scielo.br/journal/geo/about/,2024-04-07
 geop,Geopauta,2 números,"2023, Volume: 7",https://periodicos2.uesb.br/index.php/geo/about/submissions,https://www.scielo.br/journal/geop/about/,2024-04-07
-gmb,Genetics and Molecular Biology,103 números,"2024, Volume: 47, Número: 2",http://mc04.manuscriptcentral.com/gmb-scielo,https://www.scielo.br/journal/gmb/about/,2024-04-07
+gmb,Genetics and Molecular Biology,102 números,"2024, Volume: 47, Número: 1",http://mc04.manuscriptcentral.com/gmb-scielo,https://www.scielo.br/journal/gmb/about/,2024-04-07
 gp,Gestão & Produção,100 números,"2024, Volume: 31",https://mc04.manuscriptcentral.com/gp-scielo,https://www.scielo.br/journal/gp/about/,2024-04-07
 gragoata,Gragoatá,6 números,"2024, Volume: 29, Número: 63",https://periodicos.uff.br/gragoata/about/submissions,https://www.scielo.br/journal/gragoata/about/,2024-04-07
 ha,Horizontes Antropológicos,65 números,"2024, Volume: 30, Número: 70",http://seer.ufrgs.br/index.php/horizontesantropologicos/index,https://www.scielo.br/journal/ha/about/,2024-04-07
 hb,Horticultura Brasileira,96 números,"2024, Volume: 42",http://submission.scielo.br/index.php/hb,https://www.scielo.br/journal/hb/about/,2024-04-07
-hcsm,"História, Ciências, Saúde-Manguinhos",105 números,"2024, Volume: 31",http://mc04.manuscriptcentral.com/hcsm-scielo,https://www.scielo.br/journal/hcsm/about/,2024-04-07
+hcsm,"História, Ciências, Saúde-Manguinhos",104 números,"2023, Volume: 30",http://mc04.manuscriptcentral.com/hcsm-scielo,https://www.scielo.br/journal/hcsm/about/,2024-04-07
 heduc,História da Educação,25 números,"2024, Volume: 28",http://seer.ufrgs.br/index.php/asphe/index,https://www.scielo.br/journal/heduc/about/,2024-04-07
 hh,História da Historiografia,3 números,"2023, Volume: 16, Número: 41",https://www.historiadahistoriografia.com.br/revista/about/submissions,https://www.scielo.br/journal/hh/about/,2024-04-07
 his,História (São Paulo),34 números,"2024, Volume: 43",https://mc04.manuscriptcentral.com/his-scielo,https://www.scielo.br/journal/his/about/,2024-04-07
 hoehnea,Hoehnea,57 números,"2024, Volume: 51",http://mc04.manuscriptcentral.com/hoehnea-scielo,https://www.scielo.br/journal/hoehnea/about/,2024-04-07
 htct,"Hematology, Transfusion and Cell Therapy",24 números,"2023, Volume: 45, Número: 4",https://www.editorialmanager.com/HTCT/default.aspx,https://www.scielo.br/journal/htct/about/,2024-04-07
 iao,International Archives of Otorhinolaryngology,47 números,"2023, Volume: 27, Número: 4",https://mc.manuscriptcentral.com/iaorl,https://www.scielo.br/journal/iao/about/,2024-04-07
-ibju,International braz j urol,128 números,"2024, Volume: 50, Número: 2",http://mc04.manuscriptcentral.com/ibju-scielo,https://www.scielo.br/journal/ibju/about/,2024-04-07
+ibju,International braz j urol,126 números,"2023, Volume: 49, Número: 6",http://mc04.manuscriptcentral.com/ibju-scielo,https://www.scielo.br/journal/ibju/about/,2024-04-07
 icse,"Interface - Comunicação, Saúde, Educação",73 números,"2024, Volume: 28",http://mc04.manuscriptcentral.com/icse-scielo,https://www.scielo.br/journal/icse/about/,2024-04-07
 ides,Ilha do Desterro,31 números,"2024, Volume: 77",http://periodicos.ufsc.br/index.php/desterro/index,https://www.scielo.br/journal/ides/about/,2024-04-07
 ijcs,International Journal of Cardiovascular Sciences,38 números,"2024, Volume: 37",https://mc04.manuscriptcentral.com/ijcs-scielo,https://www.scielo.br/journal/ijcs/about/,2024-04-07
 inter,Interações (Campo Grande),51 números,"2023, Volume: 24, Número: 4",http://www.interacoes.ucdb.br/login,https://www.scielo.br/journal/inter/about/,2024-04-07
 interc,Intercom: Revista Brasileira de Ciências da Comunicação,30 números,"2023, Volume: 46",https://revistas.intercom.org.br/index.php/revistaintercom,https://www.scielo.br/journal/interc/about/,2024-04-07
-isz,Iheringia. Série Zoologia,67 números,"2024, Volume: 114",http://submission.scielo.br/index.php/isz,https://www.scielo.br/journal/isz/about/,2024-04-07
+isz,Iheringia. Série Zoologia,66 números,"2023, Volume: 113",http://submission.scielo.br/index.php/isz,https://www.scielo.br/journal/isz/about/,2024-04-07
 jaos,Journal of Applied Oral Science,91 números,"2024, Volume: 32",http://mc04.manuscriptcentral.com/jaos-scielo,https://www.scielo.br/journal/jaos/about/,2024-04-07
 jatm,Journal of Aerospace Technology and Management,39 números,"2024, Volume: 16",http://mc04.manuscriptcentral.com/jatm-scielo,https://www.scielo.br/journal/jatm/about/,2024-04-07
 jbchs,Journal of the Brazilian Chemical Society,267 números,"2024, Volume: 35, Número: 11",http://mc04.manuscriptcentral.com/jbchs-scielo,https://www.scielo.br/journal/jbchs/about/,2024-04-07
@@ -198,29 +198,29 @@ qn,Química Nova,233 números,"2024, Volume: 47, Número: 7",http://mc04.manuscr
 ra,Revista de Antropologia,28 números,"2023, Volume: 66",https://www.revistas.usp.br/ra/submission/wizard,https://www.scielo.br/journal/ra/about/,2024-04-07
 rac,Revista de Administração Contemporânea,131 números,"2024, Volume: 28, Número: 1",http://mc04.manuscriptcentral.com/rac-scielo,https://www.scielo.br/journal/rac/about/,2024-04-07
 rae,Revista de Administração de Empresas,294 números,"2024, Volume: 64, Número: 4",http://mc04.manuscriptcentral.com/rae-scielo,https://www.scielo.br/journal/rae/about/,2024-04-07
-ram,RAM. Revista de Administração Mackenzie,118 números,"2024, Volume: 25, Número: 2",http://mc04.manuscriptcentral.com/ram-scielo,https://www.scielo.br/journal/ram/about/,2024-04-07
+ram,RAM. Revista de Administração Mackenzie,117 números,"2024, Volume: 25, Número: 1",http://mc04.manuscriptcentral.com/ram-scielo,https://www.scielo.br/journal/ram/about/,2024-04-07
 ramb,Revista da Associação Médica Brasileira,195 números,"2024, Volume: 70, Número: 4",http://mc04.manuscriptcentral.com/ramb-scielo,https://www.scielo.br/journal/ramb/about/,2024-04-07
-rap,Revista de Administração Pública,109 números,"2024, Volume: 58, Número: 1",http://mc04.manuscriptcentral.com/rap-scielo,https://www.scielo.br/journal/rap/about/,2024-04-07
+rap,Revista de Administração Pública,108 números,"2023, Volume: 57, Número: 6",http://mc04.manuscriptcentral.com/rap-scielo,https://www.scielo.br/journal/rap/about/,2024-04-07
 rarv,Revista Árvore,110 números,"2023, Volume: 47",http://revistaarvore.ufv.br/rarv/,https://www.scielo.br/journal/rarv/about/,2024-04-07
 rb,Radiologia Brasileira,138 números,"2023, Volume: 56, Número: 6",http://mc04.manuscriptcentral.com/rb-scielo,https://www.scielo.br/journal/rb/about/,2024-04-07
 rbca,Brazilian Journal of Poultry Science,93 números,"2024, Volume: 26, Número: 1",http://mc04.manuscriptcentral.com/rbca-scielo,https://www.scielo.br/journal/rbca/about/,2024-04-07
-rbccv,Brazilian Journal of Cardiovascular Surgery,166 números,"2024, Volume: 39, Número: 3",http://mc04.manuscriptcentral.com/rbccv-scielo,https://www.scielo.br/journal/rbccv/about/,2024-04-07
+rbccv,Brazilian Journal of Cardiovascular Surgery,165 números,"2024, Volume: 39, Número: 2",http://mc04.manuscriptcentral.com/rbccv-scielo,https://www.scielo.br/journal/rbccv/about/,2024-04-07
 rbcdh,Revista Brasileira de Cineantropometria & Desempenho Humano,59 números,"2023, Volume: 25",https://periodicos.ufsc.br/index.php/rbcdh/index,https://www.scielo.br/journal/rbcdh/about/,2024-04-07
 rbce,Revista Brasileira de Ciências do Esporte,44 números,"2024, Volume: 46",https://mc04.manuscriptcentral.com/rbce-scielo,https://www.scielo.br/journal/rbce/about/,2024-04-07
 rbcp,Revista Brasileira de Cirurgia Plástica,54 números,"2024, Volume: 39, Número: 1",https://www.gnpapers.com.br/rbcp/default.asp?lang=en,https://www.scielo.br/journal/rbcp/about/,2024-04-07
 rbcpol,Revista Brasileira de Ciência Política,40 números,"2023, Número: 42",http://submission.scielo.br/index.php/rbcpol/login,https://www.scielo.br/journal/rbcpol/about/,2024-04-07
 rbcs,Revista Brasileira de Ciência do Solo,109 números,"2024, Volume: 48",http://mc04.manuscriptcentral.com/rbcs-scielo,https://www.scielo.br/journal/rbcs/about/,2024-04-07
-rbcsoc,Revista Brasileira de Ciências Sociais,79 números,"2023, Volume: 38, Número: 113",http://submission.scielo.br/index.php/rbcsoc/login,https://www.scielo.br/journal/rbcsoc/about/,2024-04-07
+rbcsoc,Revista Brasileira de Ciências Sociais,77 números,"2023, Volume: 38, Número: 111",http://submission.scielo.br/index.php/rbcsoc/login,https://www.scielo.br/journal/rbcsoc/about/,2024-04-07
 rbdpp,Revista Brasileira de Direito Processual Penal,8 números,"2024, Volume: 10, Número: 1",https://revista.ibraspp.com.br/RBDPP/about/submissions,https://www.scielo.br/journal/rbdpp/about/,2024-04-07
 rbe,Revista Brasileira de Economia,94 números,"2023, Volume: 77",http://bibliotecadigital.fgv.br/ojs/index.php/rbe/index,https://www.scielo.br/journal/rbe/about/,2024-04-07
 rbeaa,Revista Brasileira de Engenharia Agrícola e Ambiental,221 números,"2024, Volume: 28, Número: 6",http://submission.scielo.br/index.php/rbeaa/login,https://www.scielo.br/journal/rbeaa/about/,2024-04-07
 rbedu,Revista Brasileira de Educação,65 números,"2024, Volume: 29",http://submission.scielo.br/index.php/rbedu/login,https://www.scielo.br/journal/rbedu/about/,2024-04-07
 rbee,Revista Brasileira de Educação Especial,59 números,"2023, Volume: 29",http://mc04.manuscriptcentral.com/rbee-scielo,https://www.scielo.br/journal/rbee/about/,2024-04-07
 rbef,Revista Brasileira de Ensino de Física,81 números,"2024, Volume: 46",http://mc04.manuscriptcentral.com/rbef-scielo,https://www.scielo.br/journal/rbef/about/,2024-04-07
-rbem,Revista Brasileira de Educação Médica,137 números,"2024, Volume: 48, Número: 2",http://mc04.manuscriptcentral.com/rbem-scielo,https://www.scielo.br/journal/rbem/about/,2024-04-07
+rbem,Revista Brasileira de Educação Médica,136 números,"2024, Volume: 48, Número: 1",http://mc04.manuscriptcentral.com/rbem-scielo,https://www.scielo.br/journal/rbem/about/,2024-04-07
 rbent,Revista Brasileira de Entomologia,89 números,"2024, Volume: 68, Número: 1",https://mc04.manuscriptcentral.com/rbent-scielo,https://www.scielo.br/journal/rbent/about/,2024-04-07
 rbep,Revista Brasileira de Estudos da Presença,45 números,"2024, Volume: 14, Número: 2",http://seer.ufrgs.br/index.php/presenca/index,https://www.scielo.br/journal/rbep/about/,2024-04-07
-rbeped,Revista Brasileira de Estudos Pedagógicos,33 números,"2024, Volume: 105",http://rbep.inep.gov.br/index.php/rbep/index,https://www.scielo.br/journal/rbeped/about/,2024-04-07
+rbeped,Revista Brasileira de Estudos Pedagógicos,32 números,"2023, Volume: 104",http://rbep.inep.gov.br/index.php/rbep/index,https://www.scielo.br/journal/rbeped/about/,2024-04-07
 rbepid,Revista Brasileira de Epidemiologia,79 números,"2024, Volume: 27",https://mc04.manuscriptcentral.com/rbepid-scielo,https://www.scielo.br/journal/rbepid/about/,2024-04-07
 rbepop,Revista Brasileira de Estudos de População,36 números,"2023, Volume: 40",http://www.rebep.org.br/revista/index,https://www.scielo.br/journal/rbepop/about/,2024-04-07
 rbeur,Revista Brasileira de Estudos Urbanos e Regionais,17 números,"2024, Volume: 26",http://rbeur.anpur.org.br/rbeur/about/submissions#onlineSubmissions,https://www.scielo.br/journal/rbeur/about/,2024-04-07
@@ -231,7 +231,7 @@ rbgo,Revista Brasileira de Ginecologia e Obstetrícia,298 números,"2023, Volume
 rbh,Revista Brasileira de História,62 números,"2024, Volume: 44, Número: 95",http://submission.scielo.br/index.php/rbh/login,https://www.scielo.br/journal/rbh/about/,2024-04-07
 rbhe,Revista Brasileira de História da Educação,7 números,"2024, Volume: 24",http://periodicos.uem.br/ojs/index.php/rbhe/about/submissions#onlineSubmissions,https://www.scielo.br/journal/rbhe/about/,2024-04-07
 rbi,Revista Brasileira de Inovação,9 números,"2024, Volume: 23",https://periodicos.sbu.unicamp.br/ojs/index.php/rbi/login?source=,https://www.scielo.br/journal/rbi/about/,2024-04-07
-rbla,Revista Brasileira de Linguística Aplicada,73 números,"2023, Volume: 23, Número: 4",http://www.periodicos.letras.ufmg.br/index.php/rbla/index,https://www.scielo.br/journal/rbla/about/,2024-04-07
+rbla,Revista Brasileira de Linguística Aplicada,73 números,"2023, Volume: 23, Número: 3",http://www.periodicos.letras.ufmg.br/index.php/rbla/index,https://www.scielo.br/journal/rbla/about/,2024-04-07
 rblc,Revista Brasileira de Literatura Comparada,12 números,"2023, Volume: 25, Número: 50",http://revista.abralic.org.br/index.php/revista/login,https://www.scielo.br/journal/rblc/about/,2024-04-07
 rbmet,Revista Brasileira de Meteorologia,65 números,"2024, Volume: 39",http://mc04.manuscriptcentral.com/rbmet-scielo,https://www.scielo.br/journal/rbmet/about/,2024-04-07
 rbof,Revista Brasileira de Oftalmologia,90 números,"2024, Volume: 83",https://mc04.manuscriptcentral.com/rbof-scielo,https://www.scielo.br/journal/rbof/about/,2024-04-07
@@ -248,7 +248,7 @@ rbz,Revista Brasileira de Zootecnia,181 números,"2024, Volume: 53",http://mc04.
 rca,Revista Ciência Agronômica,51 números,"2024, Volume: 55",http://ccarevista.ufc.br/seer/index.php/ccarevista/index,https://www.scielo.br/journal/rca/about/,2024-04-07
 rcaat,Revista Caatinga,35 números,"2024, Volume: 37",http://periodicos.ufersa.edu.br/index.php/caatinga/index,https://www.scielo.br/journal/rcaat/about/,2024-04-07
 rcbc,Revista do Colégio Brasileiro de Cirurgiões,138 números,"2024, Volume: 51",https://www.gnpapers.com.br/rcbc/default.asp,https://www.scielo.br/journal/rcbc/about/,2024-04-07
-rcefac,Revista CEFAC,100 números,"2024, Volume: 26, Número: 3",http://mc04.manuscriptcentral.com/rcefac-scielo,https://www.scielo.br/journal/rcefac/about/,2024-04-07
+rcefac,Revista CEFAC,99 números,"2024, Volume: 26, Número: 2",http://mc04.manuscriptcentral.com/rcefac-scielo,https://www.scielo.br/journal/rcefac/about/,2024-04-07
 rceres,Revista Ceres,85 números,"2024, Volume: 71",https://mc04.manuscriptcentral.com/rceres-scielo,https://www.scielo.br/journal/rceres/about/,2024-04-07
 rcf,Revista Contabilidade & Finanças,69 números,"2023, Volume: 34, Número: 93",http://mc04.manuscriptcentral.com/rcf-scielo,https://www.scielo.br/journal/rcf/about/,2024-04-07
 rdbci,RDBCI: Revista Digital de Biblioteconomia e Ciência da Informação,5 números,"2023, Volume: 21",https://periodicos.sbu.unicamp.br/ojs/index.php/rdbci/about/submissions,https://www.scielo.br/journal/rdbci/about/,2024-04-07
@@ -260,7 +260,7 @@ reben,Revista Brasileira de Enfermagem,233 números,"2024, Volume: 77, Número: 
 rec,Revista de Economia Contemporânea,52 números,"2023, Volume: 27",http://submission.scielo.br/index.php/rec/login,https://www.scielo.br/journal/rec/about/,2024-04-07
 reeusp,Revista da Escola de Enfermagem da USP,178 números,"2024, Volume: 58",http://mc04.manuscriptcentral.com/reeusp-scielo,https://www.scielo.br/journal/reeusp/about/,2024-04-07
 ref,Revista Estudos Feministas,66 números,"2024, Volume: 32, Número: 1",https://periodicos.ufsc.br/index.php/ref/index,https://www.scielo.br/journal/ref/about/,2024-04-07
-remhu,REMHU: Revista Interdisciplinar da Mobilidade Humana ,33 números,"2024, Volume: 32",http://www.csem.org.br/remhu/index.php/remhu/index,https://www.scielo.br/journal/remhu/about/,2024-04-07
+remhu,REMHU: Revista Interdisciplinar da Mobilidade Humana ,32 números,"2023, Volume: 31, Número: 69",http://www.csem.org.br/remhu/index.php/remhu/index,https://www.scielo.br/journal/remhu/about/,2024-04-07
 remi,REM - International Engineering Journal,31 números,"2024, Volume: 77, Número: 1",http://mc04.manuscriptcentral.com/remi-scielo,https://www.scielo.br/journal/remi/about/,2024-04-07
 rep,Brazilian Journal of Political Economy,150 números,"2024, Volume: 44, Número: 1",http://submission.scielo.br/index.php/rep/login,https://www.scielo.br/journal/rep/about/,2024-04-07
 resr,Revista de Economia e Sociologia Rural,90 números,"2024, Volume: 62, Número: 4",http://submission.scielo.br/index.php/resr/login,https://www.scielo.br/journal/resr/about/,2024-04-07
@@ -276,14 +276,14 @@ rinc,Revista de Investigações Constitucionais,30 números,"2023, Volume: 10, N
 rk,Revista Katálysis,45 números,"2024, Volume: 27",http://periodicos.ufsc.br/index.php/katalysis/index,https://www.scielo.br/journal/rk/about/,2024-04-07
 rlae,Revista Latino-Americana de Enfermagem,128 números,"2024, Volume: 32",http://mc04.manuscriptcentral.com/rlae-scielo,https://www.scielo.br/journal/rlae/about/,2024-04-07
 rlpf,Revista Latinoamericana de Psicopatologia Fundamental,101 números,"2023, Volume: 26",http://mc04.manuscriptcentral.com/rlpf-scielo,https://www.scielo.br/journal/rlpf/about/,2024-04-07
-rmat,Matéria (Rio de Janeiro),74 números,"2024, Volume: 29, Número: 2",https://mc04.manuscriptcentral.com/rmat-scielo,https://www.scielo.br/journal/rmat/about/,2024-04-07
+rmat,Matéria (Rio de Janeiro),73 números,"2024, Volume: 29, Número: 1",https://mc04.manuscriptcentral.com/rmat-scielo,https://www.scielo.br/journal/rmat/about/,2024-04-07
 rmj,RAUSP Management Journal,24 números,"2023, Volume: 58, Número: 4",https://mc.manuscriptcentral.com/rausp,https://www.scielo.br/journal/rmj/about/,2024-04-07
 rn,Revista de Nutrição,112 números,"2023, Volume: 36",http://mc04.manuscriptcentral.com/rn-scielo,https://www.scielo.br/journal/rn/about/,2024-04-07
 rod,Rodriguésia,84 números,"2024, Volume: 75",http://mc04.manuscriptcentral.com/rod-scielo,https://www.scielo.br/journal/rod/about/,2024-04-07
 rounesp,Revista de Odontologia da UNESP,43 números,"2023, Volume: 52",http://mc04.manuscriptcentral.com/rounesp-scielo,https://www.scielo.br/journal/rounesp/about/,2024-04-07
 rpp,Revista Paulista de Pediatria,56 números,"2024, Volume: 42",http://mc04.manuscriptcentral.com/rpp-scielo,https://www.scielo.br/journal/rpp/about/,2024-04-07
 rs,Religião & Sociedade,41 números,"2023, Volume: 43, Número: 3",http://submission.scielo.br/index.php/rs/login,https://www.scielo.br/journal/rs/about/,2024-04-07
-rsbmt,Revista da Sociedade Brasileira de Medicina Tropical,265 números,"2024, Volume: 57",http://mc04.manuscriptcentral.com/rsbmt-scielo,https://www.scielo.br/journal/rsbmt/about/,2024-04-07
+rsbmt,Revista da Sociedade Brasileira de Medicina Tropical,264 números,"2023, Volume: 56",http://mc04.manuscriptcentral.com/rsbmt-scielo,https://www.scielo.br/journal/rsbmt/about/,2024-04-07
 rsocp,Revista de Sociologia e Política,71 números,"2023, Volume: 31",http://mc04.manuscriptcentral.com/rsocp-scielo,https://www.scielo.br/journal/rsocp/about/,2024-04-07
 rsp,Revista de Saúde Pública,260 números,"2024, Volume: 58",http://mc04.manuscriptcentral.com/rsp-scielo,https://www.scielo.br/journal/rsp/about/,2024-04-07
 sa,Scientia Agricola,152 números,"2024, Volume: 81",http://mc04.manuscriptcentral.com/sa-scielo,https://www.scielo.br/journal/sa/about/,2024-04-07
@@ -299,9 +299,9 @@ soc,Sociologias,60 números,"2024, Volume: 26",http://www.seer.ufrgs.br/index.ph
 soiroc,Soils and Rocks,16 números,"2024, Volume: 47, Número: 4",https://www.soilsandrocks.com/login.php,https://www.scielo.br/journal/soiroc/about/,2024-04-07
 sp,Summa Phytopathologica,69 números,"2023, Volume: 49",http://submission.scielo.br/index.php/sp/login,https://www.scielo.br/journal/sp/about/,2024-04-07
 spmj,Sao Paulo Medical Journal,182 números,"2024, Volume: 142, Número: 4",http://mc04.manuscriptcentral.com/spmj-scielo,https://www.scielo.br/journal/spmj/about/,2024-04-07
-sssoc,Serviço Social & Sociedade,51 números,"2024, Volume: 147, Número: 3",http://submission.scielo.br/index.php/sssoc/login,https://www.scielo.br/journal/sssoc/about/,2024-04-07
+sssoc,Serviço Social & Sociedade,50 números,"2024, Volume: 147, Número: 2",http://submission.scielo.br/index.php/sssoc/login,https://www.scielo.br/journal/sssoc/about/,2024-04-07
 tcam,Trends in Computational and Applied Mathematics,12 números,"2023, Volume: 24, Número: 4",https://tema.sbmac.org.br/tema/about/submissions#onlineSubmissions,https://www.scielo.br/journal/tcam/about/,2024-04-07
-tce,Texto & Contexto - Enfermagem,64 números,"2024, Volume: 33",http://mc04.manuscriptcentral.com/tce-scielo,https://www.scielo.br/journal/tce/about/,2024-04-07
+tce,Texto & Contexto - Enfermagem,63 números,"2023, Volume: 32",http://mc04.manuscriptcentral.com/tce-scielo,https://www.scielo.br/journal/tce/about/,2024-04-07
 tem,Tempo,46 números,"2024, Volume: 30, Número: 1",http://submission.scielo.br/index.php/tem/login,https://www.scielo.br/journal/tem/about/,2024-04-07
 tes,"Trabalho, Educação e Saúde",54 números,"2024, Volume: 22",https://www.submissao.tes.epsjv.fiocruz.br/index.php/tes/login,https://www.scielo.br/journal/tes/about/,2024-04-07
 tinf,Transinformação,60 números,"2024, Volume: 36",https://periodicos.puc-campinas.edu.br/transinfo,https://www.scielo.br/journal/tinf/about/,2024-04-07
