@@ -15,8 +15,8 @@ fs::file_move("docs/")
 
 
 
-paste0("inst/relatorios/template_aderencia_criterios_files") |>
-fs::dir_copy("docs/", overwrite = TRUE)
+fs::dir_copy(path = "inst/relatorios/template_aderencia_criterios_files/",
+             new_path = "docs/", overwrite = TRUE)
 
 # Index ----------
 

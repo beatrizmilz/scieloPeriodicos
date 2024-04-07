@@ -58,7 +58,7 @@ nome_secao <-  criterio_filtrado$palavras_chave |>
   paste0(collapse = "|")
 
 dados_filtrados<- dados |>
-  dplyr::filter(!stringr::str_detect(stringr::str_to_lower(subtitulo_secao), nome_secao))
+  dplyr::filter(stringr::str_detect(stringr::str_to_lower(subtitulo_secao), nome_secao))
 
 
 quantidade_periodicos_com_diretriz <- length(unique(dados_filtrados$id_periodico))
@@ -68,22 +68,32 @@ porc <- round((quantidade_periodicos_com_diretriz/nrow(periodicos_ativos))*100,1
 
 Quantidade de periódicos com uma seção dedicada ao sobre o tópico: **`r length(unique(dados_filtrados$id_periodico))`** (de um total de `r numero_periodicos_ativos` periódicos - cerca de **`r porc`%**).
 
-```{r}
-termos <- criterio_filtrado$palavras_chave |>
-  purrr::pluck(1) |>
-  stringr::str_to_lower() |> 
-  unique() |>
-  sort() |> 
-  paste0(collapse = ", ")
-  
-```
-
-- **Termos buscados:** `r termos`
 
 ```{r}
-dados_filtrados |> 
-  dplyr::select(Periodico, 
+dados_filtrados |>
+  dplyr::select(Periodico,
                 Secao = subtitulo_secao,
-                Texto = texto_secao) |> 
-  reactable::reactable(sortable = TRUE, searchable = TRUE, defaultColDef = reactable::colDef(html = TRUE))
+                Texto = texto_secao) |>
+  knitr::kable()
+  # reactable::reactable(
+  #   sortable = TRUE,
+  #   searchable = TRUE,
+  #   defaultColDef = reactable::colDef(html = TRUE),
+  #   resizable = TRUE
+  # )
 ```
+
+
+
+```{r}
+# termos <- criterio_filtrado$palavras_chave |>
+#   purrr::pluck(1) |>
+#   stringr::str_to_lower() |> 
+#   unique() |>
+#   sort() |> 
+#   paste0(collapse = ", ")
+# 
+# #- **Termos buscados:** `r termos`
+```
+
+

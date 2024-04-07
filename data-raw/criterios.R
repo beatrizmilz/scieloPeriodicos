@@ -73,7 +73,21 @@ criterios_scielo <- tibble::tibble(
         "Pesquisa em Seres Humanos e Experimentais"
       )
     )
-  )
+  ) #|>
+  #  tibble::add_row(
+  #   criterio = "open_science",
+  #   nome_criterio = "Conformidade com a Ciência Aberta",
+  #   palavras_chave = list(
+  #     c(
+  #       "Conformidade com a Ciência Aberta",
+  #       "Ciência aberta",
+  #       "Open Science",
+  #       "Formulário de Conformidade com a Ciência Aberta",
+  #       "Boas Práticas de Ciência Aberta",
+  #       "Incentivo à Ciência Aberta"
+  #     )
+  #   )
+  # )
 
 
 usethis::use_data(criterios_scielo, overwrite = TRUE)
