@@ -1,0 +1,30 @@
+on:
+  schedule:
+  - cron: '0 12 * * *'
+
+name: "periodicos_ativos"
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.PAT_GITHUB }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: r-lib/actions/setup-r@v2
+      - name: Install dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+        # with:
+        #   extra-packages: any::roxygen2
+        #   needs: roxygen2
+
+      - name: "Atualizar periodicos ativos"
+        run: Rscript data-raw/periodicos_ativos.R
+
+      - name: Commit results
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add inst/periodicos_ativos_SciELO.csv
+          git commit -m 'Update data' || echo "Update data"
+          git push origin || echo "Update data"
