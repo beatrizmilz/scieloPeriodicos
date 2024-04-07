@@ -70,10 +70,10 @@ Informações úteis:
 - [x] Criar um fluxo de trabalho com GitHub Actions para salvar a página
   de instruções aos autores de cada periódico.
 
-- [ ] Fazer o download da página de instruções em Português.
+- [x] Fazer o download da página de instruções em Português.
 
-- [ ] Extrair os textos da página `about` dos periódicos, estruturada
-  pelos tópicos (**iniciado**)
+- [x] Extrair os textos da página `about` dos periódicos, estruturada
+  pelos tópicos (obrigada @jtrecenti)
 
 - [ ] Adicionar na tabela
   [`periodicos_ativos_SciELO.csv`](https://github.com/beatrizmilz/scieloPeriodicos/blob/main/inst/periodicos_ativos_SciELO.csv)
