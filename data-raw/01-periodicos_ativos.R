@@ -9,8 +9,6 @@ periodicos_ativos <- listar_periodicos_ativos()
 
 periodicos_ativos_area <- buscar_area_periodicos()
 
-usethis::use_data(periodicos_ativos_area, overwrite = TRUE)
-
 # Unir área dos periódicos -----------------------------------
 
 periodicos_ativos_completo <- dplyr::left_join(periodicos_ativos,
