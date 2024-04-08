@@ -16,7 +16,7 @@ usethis::use_data(periodicos_ativos_area, overwrite = TRUE)
 periodicos_ativos_completo <- dplyr::left_join(periodicos_ativos,
                                                periodicos_ativos_area,
                                                by = "id_periodico") |>
-  dplyr::relocate(area, .after = titulo_periodico)
+  dplyr::relocate(area, .after = nome)
 
 
 # Salvando no repositório em um arquivo CSV ------------------

@@ -22,7 +22,7 @@ listar_periodicos_ativos <- function() {
     purrr::map( ~  rvest::html_nodes(.x, ".journalTitle")) |>
     purrr::map(rvest::html_text) |>
     tibble::enframe() |>
-    dplyr::mutate(titulo_periodico = as.character(value)) |>
+    dplyr::mutate(nome = as.character(value)) |>
     dplyr::select(-value)
 
   # Número de issues do periódico

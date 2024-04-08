@@ -37,7 +37,7 @@ numero_periodicos_ativos <- nrow(periodicos_ativos)
 
 dados <-
   dplyr::left_join(periodicos_ativos, instrucoes, by = "id_periodico") |>  dplyr::mutate(
-    Periodico = glue::glue("<a href='{url_instrucoes}' target='_blank'>{titulo_periodico}</a>"),
+    Periodico = glue::glue("<a href='{url_instrucoes}' target='_blank'>{nome}</a>"),
     texto_secao = stringr::str_replace_all(texto_secao, "\n", " ")
   ) 
 
