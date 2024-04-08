@@ -27,7 +27,7 @@ area_df <- dplyr::tibble(
 url <- "https://www.scielo.br/journals/thematic?status=current&filter=areas"
 
 # busca abreviações em ordem
-abbr <- url %>%
+id_periodico <- url %>%
   rvest::read_html() %>%
   rvest::html_nodes(".collectionLink") %>%
   rvest::html_attr("href")
@@ -38,13 +38,13 @@ nomes <- url %>%
   rvest::html_nodes(".journalTitle") %>%
   rvest::html_text()
 
-# df com nomes e abbr em ordem
+# df com nomes e id_periodico em ordem
 nomes_fix <- dplyr::tibble(
   periodico = nomes,
-  abbr
+  id_periodico
 ) %>%
   dplyr::distinct() %>%
-  dplyr::mutate(abbr = stringr::str_remove_all(abbr, "/j/|/"))
+  dplyr::mutate(id_periodico = stringr::str_remove_all(id_periodico, "/j/|/"))
 
 # busca area
 resultado <- url %>%
@@ -63,12 +63,16 @@ resultado <- url %>%
     area
   )
 
-# combina area e abbr
+# combina area e id_periodico
 resultado2 <- resultado %>%
   dplyr::left_join(nomes_fix) %>%
-  dplyr::select(abbr, area) %>%
-  dplyr::arrange(abbr, area) %>%
-  dplyr::group_by(abbr) %>%
+  dplyr::select(id_periodico, area) %>%
+  dplyr::arrange(id_periodico, area) %>%
+  dplyr::group_by(id_periodico) %>%
   dplyr::summarise(
-    areas = paste(area, collapse = "; ")
+    area = paste(area, collapse = "; ")
   )
+
+# combina df original com area
+periodicos_ativos_SciELO2 <- periodicos_ativos_SciELO %>%
+  left_join(resultado2)
