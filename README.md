@@ -11,6 +11,9 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 
 ## Sobre este repositório
 
+- **Este repositório está em desenvolvimento, e aceitamos sugestões e
+  contribuições**.
+
 - Esse repositório apresenta rotinas para obter a lista atualizada de
   periódicos que fazem parte da [Coleção
   SciELO](https://www.scielo.br/journals/alpha?status=current).
@@ -53,6 +56,50 @@ Informações úteis:
 
 - Existem 318 periódicos na [lista de periódicos ativos na página da
   SciELO](https://www.scielo.br/journals/alpha?status=current).
+
+### Informações sobre cada periódico
+
+O arquivo
+[`inst/instrucoes-autores.rds`](https://github.com/beatrizmilz/scieloPeriodicos/blob/main/inst/instrucoes-autores.rds)
+apresenta dados extraídos das páginas dos periódicos, que apresentam
+informações sobre os seguintes tópicos: **Sobre o periódico**, **Corpo
+Editorial** e **Instruções aos autores**.
+
+O arquivo tem a extensão `.rds`, que é possível ser aberto utilizando o
+R. Estamos avaliando outros formatos que possibilitem o
+compartilhamento. Como alguns campos apresentam grandes textos, isso
+dificulta a exportação do arquivo em um `.csv` ou `.xlsx`.
+
+O objetivo de obter essas informações é ter acesso às políticas
+editoriais dos periódicos da coleção, principalmente se tratando dos
+“[Critérios SciELO Brasil: critérios, políticas e procedimentos para a
+admissão e a permanência de periódicos científicos na Coleção SciELO
+Brasil](https://www.scielo.br/about/criterios-scielo-brasil)”.
+
+Uma versão preliminar da exploração destes dados pode ser acessada neste
+link: <https://beatrizmilz.github.io/scieloPeriodicos/>
+
+``` r
+informacoes_periodicos <- readr::read_rds("inst/instrucoes-autores.rds")
+```
+
+Podemos buscar em todos os periódicos da coleção as seções e seus textos
+relacionados à algum tema.
+
+Por exemplo, segue abaixo a política editorial da [Revista Brasileira de
+Saúde Materno Infantil](https://www.scielo.br/journal/rbsmi/about/)
+sobre o tema **Questões de Sexo e Gênero**:
+
+``` r
+informacoes_periodicos |> 
+  dplyr::filter(subtitulo_secao == "Questões de Sexo e Gênero", id_periodico == "rbsmi") |>
+  dplyr::select(texto_secao) |> 
+  knitr::kable(col.names = "RBSMI - Questões de Sexo e Gênero")
+```
+
+| RBSMI - Questões de Sexo e Gênero                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| A equipe editorial da Revista Brasileira de Saúde Materno Infantil, além dos autores que publicam na revista, devem sempre observar as diretrizes sobre Equidade de Sexo e Gênero em Pesquisa (Sex and Gender Equity in Research – SAGER). As diretrizes SAGER compreendem um conjunto de diretrizes que orientam o relato de informações sobre sexo e gênero no desenho do estudo, na análise de dados e nos resultados e interpretação dos achados. Além disso, a RBSMI observa a política de equidade de gênero na formação de seu corpo editorial. |
 
 ## Sugestões
 
