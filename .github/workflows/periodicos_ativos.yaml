@@ -20,7 +20,7 @@ jobs:
           needs: devtools
 
       - name: "Atualizar periodicos ativos"
-        run: Rscript data-raw/periodicos_ativos.R
+        run: Rscript data-raw/01-periodicos_ativos.R
 
       - name: Commit results
         run: |

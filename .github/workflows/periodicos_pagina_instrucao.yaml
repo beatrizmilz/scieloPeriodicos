@@ -20,7 +20,7 @@ jobs:
           needs: devtools
 
       - name: "Baixar página de instruções aos autores"
-        run: Rscript data-raw/instrucoes_autores.R
+        run: Rscript data-raw/02-baixar-instrucoes_autores.R
 
       - name: Commit results
         run: |
