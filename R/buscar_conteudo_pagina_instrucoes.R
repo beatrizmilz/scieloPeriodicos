@@ -6,7 +6,13 @@ buscar_conteudo_pagina_instrucoes <- function(caminho_arquivo,
 
   data_obtencao_informacao <- stringr::str_extract(caminho_arquivo, "[0-9]{4}-[0-9]{2}-[0-9]{2}")
 
-  # Adicionar: data de atualização do site!
+    data_atualizacao_pagina <- rvest::read_html(caminho_arquivo) |>
+    rvest::html_element("body") |>
+    rvest::html_element(".page-updated-at") |>
+    rvest::html_text() |>
+    stringr::str_trim() |>
+    stringr::str_extract("[0-9]{2}/[0-9]{2}/[0-9]{4}")
+
   html_lista <- rvest::read_html(caminho_arquivo) |>
     rvest::html_element("body")  |>
     rvest::html_elements(".col-sm-12")
@@ -45,7 +51,8 @@ buscar_conteudo_pagina_instrucoes <- function(caminho_arquivo,
       id_periodico = id_periodico,
       .before = tidyselect::everything(),
     ) |>
-    dplyr::mutate(data_obtencao_informacao = data_obtencao_informacao)
+    dplyr::mutate(data_obtencao_informacao = data_obtencao_informacao,
+                  data_atualizacao_pagina = data_atualizacao_pagina)
 
 
     if(isTRUE(salvar_localmente)){
