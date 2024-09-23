@@ -23,3 +23,6 @@ readr::write_csv(periodicos_ativos_completo,
                  quote = "needed")
 
 usethis::ui_info("Dados CSV salvos!")
+
+writexl::write_xlsx(periodicos_ativos_completo,
+                    "inst/periodicos_ativos_SciELO.xlsx")
