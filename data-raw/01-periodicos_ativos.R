@@ -24,5 +24,5 @@ readr::write_csv(periodicos_ativos_completo,
 
 usethis::ui_info("Dados CSV salvos!")
 
-writexl::write_xlsx(periodicos_ativos_completo,
-                    "inst/periodicos_ativos_SciELO.xlsx")
+# writexl::write_xlsx(periodicos_ativos_completo,
+#                    "inst/periodicos_ativos_SciELO.xlsx")
